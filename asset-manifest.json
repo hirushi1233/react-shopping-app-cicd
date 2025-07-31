@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/react-shopping-app-cicd/static/js/main.f81d0ca1.js",
+    "main.js": "/react-shopping-app-cicd/static/js/main.648b3cd4.js",
     "static/media/pink.jpg": "/react-shopping-app-cicd/static/media/pink.f25ce6fa2a8f6db198fc.jpg",
     "static/media/product3.jpg": "/react-shopping-app-cicd/static/media/product3.555128b4184db95a373c.jpg",
     "static/media/product6.jpg": "/react-shopping-app-cicd/static/media/product6.01f43622c10976c09ec4.jpg",
@@ -22,9 +22,9 @@
     "static/media/product2.jpg": "/react-shopping-app-cicd/static/media/product2.ac5f91d21c760ddd767c.jpg",
     "static/media/hero3.jpg": "/react-shopping-app-cicd/static/media/hero3.690626bba21ba4a53ac2.jpg",
     "index.html": "/react-shopping-app-cicd/index.html",
-    "main.f81d0ca1.js.map": "/react-shopping-app-cicd/static/js/main.f81d0ca1.js.map"
+    "main.648b3cd4.js.map": "/react-shopping-app-cicd/static/js/main.648b3cd4.js.map"
   },
   "entrypoints": [
-    "static/js/main.f81d0ca1.js"
+    "static/js/main.648b3cd4.js"
   ]
 }
