@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import { FaShoppingCart, FaUser } from "react-icons/fa";
 
 // Local image imports
 import hero1 from "./assets/hero1.jpg";
@@ -49,7 +50,24 @@ export default function HomePage() {
       <style>{`
         .homepage {
           font-family: sans-serif;
+          position: relative;
         }
+
+        .top-right-icons {
+          position: absolute;
+          top: 1rem;
+          right: 1.5rem;
+          display: flex;
+          gap: 1rem;
+          z-index: 10;
+        }
+
+        .icon {
+          font-size: 1.5rem;
+          color: #1f2937;
+          cursor: pointer;
+        }
+
         .hero-section {
           background-color: #92b8c5ff;
           padding: 4rem 1rem;
@@ -179,6 +197,13 @@ export default function HomePage() {
       `}</style>
 
       <div className="homepage">
+
+        {/* Header Icons */}
+        <div className="top-right-icons">
+          <FaShoppingCart className="icon" title="Cart" />
+          <FaUser className="icon" title="Login" />
+        </div>
+
         {/* Hero Section */}
         <section className="hero-section">
           <h1>POTTERY MADE WITH LOVE</h1>
@@ -241,4 +266,4 @@ export default function HomePage() {
       </div>
     </>
   );
-} 
+}
