@@ -6,8 +6,7 @@ import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/react-shopping-app-cicd">
     <App />
   </BrowserRouter>
 );
-
